@@ -7,7 +7,11 @@
 ![](./wordnet_based_kg/graph.png)
 + 词汇问答应用
 ![](./wordnet_based_kg/qa_app.png)
+
 ## 项目2 基于BiLSTM-Attention实体链接算法的实体消歧系统
 + 详情点击：[entity_link](./entity_link)
 + 效果预览
 ![](./el.png)
+
+## 项目3 CCKS&百度 2019中文短文本的实体链指 第一名解决方案(引用FREE成果)
++ 详情点击：[entity_link_ccks_baidu](./entity_link_ccks_baidu)
