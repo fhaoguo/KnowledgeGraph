@@ -1,4 +1,4 @@
-<h1 style="text-align: center"> 基于BiLSTM-Attention实体链接算法的实体消歧系统 </h1>
+<h1 style="text-align: center"> 基于BiLSTM-Attention算法的实体链接 </h1>
 
 
 

@@ -8,7 +8,7 @@
 + 词汇问答应用
 ![](./wordnet_based_kg/qa_app.png)
 
-## 项目2 基于BiLSTM-Attention实体链接算法的实体消歧系统
+## 项目2 基于BiLSTM-Attention算法的实体链接
 + 详情点击：[entity_link](./entity_link)
 + 效果预览
 ![](./el.png)
