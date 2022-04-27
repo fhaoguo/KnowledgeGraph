@@ -19,4 +19,4 @@
 ## 项目4 豆瓣电影知识图谱
 + 详情点击[movie_kg](./movie_kg)
 + 效果预览
-![](./movie_kb/graph.png)
+![](./movie_kg/graph.png)
