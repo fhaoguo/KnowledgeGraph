@@ -13,10 +13,7 @@
 + 效果预览
 ![](./el.png)
 
-## 项目3 CCKS&百度 2019中文短文本的实体链指 第一名解决方案(引用FREE成果)
-+ 详情点击：[entity_link_ccks_baidu](./entity_link_ccks_baidu)
-
-## 项目4 豆瓣电影知识图谱
+## 项目3 豆瓣电影知识图谱
 + 详情点击[movie_kg](./movie_kg)
 + 效果预览
 ![](./movie_kg/graph.png)
