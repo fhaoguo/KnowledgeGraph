@@ -1,7 +1,9 @@
 # 基于WordNet构建的英语词汇实体和同义词集实体知识图谱
+
 ### 抽取实体：
 + Lemma(WordNode) 
 + Synset(SynsetNode)
+
 ### 抽取关系：
 + InSynset(Lemma(WordNode), Synset(SynsetNode), InSynset)
 + IsA(Synset(SynsetNode), Synset(SynsetNode), IsA)
@@ -12,7 +14,13 @@
 + SimilarTo(Synset(SynsetNode), Synset(SynsetNode), SimilarTo)
 + Antonym(Synset(SynsetNode), Synset(SynsetNode), Antonym)
 + Entailment(Synset(SynsetNode), Synset(SynsetNode), Entailment)
+
 ### 效果预览
-![](./graph.png)
-### 词汇问答
+执行cypher语句
+>match p = (:Lemma)-[]->(:Synset)<-[]-(:Synset)<-[]-(:Lemma) return p limit 25</br>
+
+查询结果：
+>![](./graph.png)
+
+### 词汇问答应用
 ![](./qa_app.png)
