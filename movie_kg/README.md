@@ -7,6 +7,7 @@
  中间经过Mysql，纯粹属于Mysql练手。
 ## 效果预览
 执行cypher语句
->match p=(:person)<-[:`演员`|:`编剧`]-(:movie)-[:`编剧`]->(:person)<-[:`演员`]-(:movie)-[:`编剧`|:`演员`]->(:person) return p limit 50
+>match p=(:person)<-[:`演员`|:`编剧`]-(:movie)-[:`编剧`]->(:person)<-[:`演员`]-(:movie)-[:`编剧`|:`演员`]->(:person) return p limit 50</br>
 结果如下：
+
 >![](./graph.png)
